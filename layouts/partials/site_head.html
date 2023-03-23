@@ -13,7 +13,7 @@
   {{ $superuser_role := "" }}
   {{ range first 1 (where (where site.Pages "Section" "authors") "Params.superuser" true) }}
     {{ $superuser_name = .Title }}
-    {{ $superuser_username = path.Base (path.Split .Path).Dir }}
+    {{ $superuser_username = path.Base .File.Dir }}
     {{ $superuser_role = .Params.role }}
   {{ end }}
   {{ $scr.Set "superuser_username" $superuser_username }}{{/* Set superuser globally for page_author.html. */}}
@@ -122,7 +122,7 @@
 
   {{ $css_comment := printf "/*!* Source Themes Academic v%s (https://sourcethemes.com/academic/) */\n" site.Data.academic.version }}
   {{ $css_bundle_head := $css_comment | resources.FromString "css/bundle-head.css" }}
-  {{ $css_options := dict "targetPath" "css/academic.css" }}
+  {{ $css_options := dict "targePath" "css/academic.css" }}
   {{- if (in (slice (getenv "HUGO_ENV") hugo.Environment) "production") -}}
     {{- $css_options = merge $css_options (dict "outputStyle" "compressed") -}}
   {{- end -}}
