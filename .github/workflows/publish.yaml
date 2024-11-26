@@ -44,12 +44,12 @@ jobs:
       - name: Run Build Script
         run: |
           chmod +x ./scripts/view-starter-dev.sh
-          ./scripts/view-starter-dev.sh "academic"
+          ./scripts/view-starter-dev.sh "research-group"
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./starters/academic/dist
+          path: ./starters/research-group/dist
 
   # Deploy website to GitHub Pages hosting
   deploy:
