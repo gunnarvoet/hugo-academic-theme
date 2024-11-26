@@ -7,5 +7,5 @@ github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-reveal -> ../..
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-seo -> ../../../modules/wowchemy-seo,
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-core -> ../../../modules/wowchemy-core,
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify-cms -> ../../../modules/wowchemy-plugin-netlify-cms" \
-hugo --panicOnWarning --renderStaticToDisk -F \
---source "starters/$1" --destination "./build"
+hugo --panicOnWarning --minify --renderStaticToDisk -F \
+--source "starters/$1" --destination "./dist"
