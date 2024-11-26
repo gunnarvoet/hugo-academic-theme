@@ -1,4 +1,4 @@
-#!/usr/bin/env zsh
+#!/usr/bin/env bash
 
 HUGOxPARAMSxCMSxLOCAL_BACKEND=true \
 HUGO_MODULE_REPLACEMENTS="github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5 -> ../../../modules/wowchemy,
