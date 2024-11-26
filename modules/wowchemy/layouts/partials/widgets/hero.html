@@ -11,7 +11,8 @@
       <h1 class="hero-title">{{ . | markdownify }}</h1>
     {{ end }}
 
-    {{ with $page.Content }}
+    {{/* with $page.Content */}}
+    {{ with $page.design.columns.left }}
       <div class="hero-lead">{{ . }}</div>
     {{ end }}
 
@@ -87,6 +88,9 @@
 
         <img src="{{ $legacy_img.RelPermalink }}" srcset="{{ $img_src_set }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ $page.Title }}">
       {{ end }}
+    {{ end }}
+    {{ with $page.design.columns.right }}
+      <div class="hero-lead">{{ . }}</div>
     {{ end }}
   </div>
 </div>
