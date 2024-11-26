@@ -49,6 +49,21 @@ footer:
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
+  content: 
+    directions: Enter Building 81 and Find Alex's office
+    office_hours:
+      - 'Weekdays: 9-5'
+    appointment_url: 'https://calendly.com'
+    contact_links:
+      - icon: twitter
+        icon_pack: fab
+        name: DM Me
+        link: 'https://twitter.com/Twitter'
+      - icon: video
+        icon_pack: fas
+        name: Zoom Me
+        link: 'https://zoom.com'
+
 
 # Localization
 

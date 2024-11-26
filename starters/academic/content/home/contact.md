@@ -37,20 +37,6 @@ content:
   coordinates:
     latitude: '50.695805'
     longitude: '7.103828'
-  directions: Enter Building 81 and Find Alex's office
-  office_hours:
-    - 'Weekdays: 9-5'
-  appointment_url: 'https://calendly.com'
-  contact_links:
-    - icon: twitter
-      icon_pack: fab
-      name: DM Me
-      link: 'https://twitter.com/Twitter'
-    - icon: video
-      icon_pack: fas
-      name: Zoom Me
-      link: 'https://zoom.com'
-
 design:
   columns: '2'
 ---
