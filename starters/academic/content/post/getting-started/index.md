@@ -1,9 +1,9 @@
 ---
-title: Welcome to Wowchemy, the website builder for Hugo
-subtitle: Welcome 👋 We know that first impressions are important, so we've populated your new site with some initial content to help you get familiar with everything in no time.
+title: PhD at the intersection of AI and Radiology
+subtitle:
 
 # Summary for listings and search engines
-summary: Welcome 👋 We know that first impressions are important, so we've populated your new site with some initial content to help you get familiar with everything in no time.
+summary: "We, at the newly established division for Computational Radiology & Clinical AI at the University Hospital Bonn / University of Bonn (PI: Philipp Vollmuth – Full Professor of AI in Medical Imaging) are looking for applications for multiple PhD positions at the intersection of AI and Radiology. Our research group has consistently contributed to premier journals and conferences, including The Lancet Oncology, The Lancet Digital Health, Nature Communications, Radiology, MICCAI1,2. You can also check out our work on our GitHub page3 and an online demonstrator for some of our developed algorithms4. This is a great opportunity to dive into AI-driven translational research and contribute to significant advancements in the clinical application of Computer Vision or NLP algorithms."
 
 # Link this post with a project
 projects: []
