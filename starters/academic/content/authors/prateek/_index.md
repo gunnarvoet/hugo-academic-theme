@@ -6,6 +6,8 @@ title: Prateek Singh
 first_name: Prateek
 last_name: Singh
 
+weight: 8
+
 # Username (this should match the folder name)
 authors:
   - prateek

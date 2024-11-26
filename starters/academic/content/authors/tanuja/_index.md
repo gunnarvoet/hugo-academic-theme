@@ -6,6 +6,7 @@ title: Tanuja Jayas
 first_name: Tanuja
 last_name: Jayas
 
+weight: 11
 # Username (this should match the folder name)
 authors:
   - tanuja

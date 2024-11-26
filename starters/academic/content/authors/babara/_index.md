@@ -6,6 +6,8 @@ title: Babara Wichtmann
 first_name: Babara
 last_name: Wichtmann
 
+weight: 7
+
 # Username (this should match the folder name)
 authors:
   - babara

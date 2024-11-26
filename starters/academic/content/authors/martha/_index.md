@@ -6,6 +6,8 @@ title: Martha Foltyn-Dumitru
 first_name: Martha
 last_name: Foltyn-Dumitru
 
+weight: 2
+
 # Username (this should match the folder name)
 authors:
   - martha

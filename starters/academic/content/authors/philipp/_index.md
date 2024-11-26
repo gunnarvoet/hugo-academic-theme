@@ -1,20 +1,21 @@
 ---
 # Display name
-title: Bonn
+title: Philipp Vollmuth
 
 # Full name (for SEO)
-first_name: Bonn
-last_name: Hello
+first_name: Philipp
+last_name: Vollmuth
 
+weight: 1
 # Username (this should match the folder name)
 authors:
-  - bonn
+  - philipp
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Future home for all
+role: "Else-Kröner CS Professor for AI in Medical Imaging at University Bonn; Secondary Affliation: Division for Medical Imaging Computing (MIC), German Cancer Research Center (DKFZ) Heidelberg"
 
 # Organizations/Affiliations
 organizations:

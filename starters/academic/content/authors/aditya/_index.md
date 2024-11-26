@@ -6,6 +6,8 @@ title: Aditya Rastogi
 first_name: Aditya
 last_name: Rastogi
 
+weight: 3
+
 # Username (this should match the folder name)
 authors:
   - aditya

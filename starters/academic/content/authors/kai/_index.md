@@ -6,6 +6,8 @@ title: Kai Schlamp
 first_name: Kai
 last_name: Schlamp
 
+weight: 4
+
 # Username (this should match the folder name)
 authors:
   - kai

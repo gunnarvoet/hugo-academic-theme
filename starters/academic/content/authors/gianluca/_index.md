@@ -6,6 +6,8 @@ title: Gianluca Brugnara
 first_name: Gianluca
 last_name: Brugnara
 
+weight: 6
+
 # Username (this should match the folder name)
 authors:
   - gianluca
