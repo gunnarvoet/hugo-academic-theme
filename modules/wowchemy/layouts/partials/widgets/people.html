@@ -66,9 +66,10 @@
   {{/* First row: Show one person */}}
   <div class="row row-middle">
     {{ $middleStart := 1 }}                               
-    {{ $middleEnd := sub $authorsCount 2 }}               
+    {{ $middleEnd := sub $authorsCount 2 }}
+    {{ if gt $middleEnd $middleStart }}               
     {{ $middleAuthors := first $middleEnd (after $middleStart $query) }}
-    
+
     {{ range $middleAuthors }}
     {{ $avatar := (.Resources.ByType "image").GetMatch "*avatar*" }}
   {{/* Get link to user's profile page. */}}
@@ -99,6 +100,7 @@
   </div>
   {{ end }}
   </div>
+  {{ end }}
 
   {{/* First row: Show one person */}}
   <div class="row row-last">
