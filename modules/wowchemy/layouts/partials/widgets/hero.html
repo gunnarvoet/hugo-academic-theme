@@ -13,7 +13,7 @@
 
     {{/* with $page.Content */}}
     {{ with $page.Params.design.columns.left }}
-      <div class="hero-lead">{{ . }}</div>
+    <p style="font-size: smaller;">{{ . }}</p>
     {{ end }}
 
     {{/* Call-to-action link */}}
@@ -86,11 +86,11 @@
         {{ end }}
         {{ $img_src_set = delimit $img_src_set "," }}
 
-        <img src="{{ $legacy_img.RelPermalink }}" srcset="{{ $img_src_set }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ $page.Title }}">
+        <img src="{{ $legacy_img.RelPermalink }}" srcset="{{ $img_src_set }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ $page.Title }}" style="display:block; margin: 0 auto;">
       {{ end }}
     {{ end }}
     {{ with $page.Params.design.columns.right }}
-      <div class="hero-lead">{{ . }}</div>
+      <p style="font-size: smaller;">{{ . }}</p>
     {{ end }}
   </div>
 </div>
