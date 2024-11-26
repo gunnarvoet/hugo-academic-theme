@@ -8,7 +8,7 @@
 {{ end }}
 
     {{ with $page.Title }}
-      <h1 class="hero-title" style="font-size: xx-large;">{{ . | markdownify }}</h1>
+      <h1 class="hero-title" style="font-size:xx-large;text-align: center;">{{ . | markdownify }}</h1>
     {{ end }}
 
     {{/* with $page.Content */}}
@@ -59,7 +59,7 @@
   {{/* Hero image */}}
   {{ if $page.Params.hero_media }}
   </div>
-  <div class="col-12 mx-auto col-md-6 {{if $page.Params.design.flip}}order-md-first{{end}} hero-media">
+  <div class="col-12 mx-auto col-md-6 {{if $page.Params.design.flip}}order-md-first{{end}} hero-media" style="display: block;">
     {{- $image := ($page.Parent.Resources.ByType "image").GetMatch $page.Params.hero_media -}}
     {{- if not $image -}}
       {{- $image = resources.Get (path.Join "media" $page.Params.hero_media) -}}
