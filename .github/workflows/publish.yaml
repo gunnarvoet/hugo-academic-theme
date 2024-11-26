@@ -1,7 +1,7 @@
 name: Deploy website to GitHub Pages
 
 env:
-  WC_HUGO_VERSION: '0.97.3'
+  WC_HUGO_VERSION: '0.101.0'
 
 on:
   # Trigger the workflow every time you push to the `main` branch
@@ -42,7 +42,9 @@ jobs:
 
       # Step 4: Run Custom Build Script
       - name: Run Build Script
-        run: ./scripts/view-starter-dev.sh "academic"
+        run: |
+          chmod +x ./scripts/view-starter-dev.sh
+          ./scripts/view-starter-dev.sh "academic"
 
   # Deploy website to GitHub Pages hosting
   deploy:
