@@ -4,17 +4,9 @@
 
 {{ if $page.Params.hero_media }}
 <div class="row">
-  <div class="col-12 col-md-6 text-center text-md-left">
 {{ end }}
 
-    {{ with $page.Title }}
-      <h1 class="hero-title" style="font-size:x-large;text-align: center;">{{ . | markdownify }}</h1>
-    {{ end }}
 
-    {{/* with $page.Content */}}
-    {{ with $page.Params.design.columns.left }}
-    <p style="font-size: 1em; text-align: justify;">{{ . }}</p>
-    {{ end }}
 
     {{/* Call-to-action link */}}
     {{ if $page.Params.cta.url }}
@@ -58,8 +50,11 @@
 
   {{/* Hero image */}}
   {{ if $page.Params.hero_media }}
-  </div>
   <div class="col-12 mx-auto col-md-6 {{if $page.Params.design.flip}}order-md-first{{end}} hero-media" style="display: block;">
+    {{ with $page.Title }}
+    <h1 class="hero-title" style="font-size:x-large;text-align: center;">{{ . | markdownify }}</h1>
+    {{ end }}
+    
     {{- $image := ($page.Parent.Resources.ByType "image").GetMatch $page.Params.hero_media -}}
     {{- if not $image -}}
       {{- $image = resources.Get (path.Join "media" $page.Params.hero_media) -}}
@@ -89,9 +84,9 @@
         <img src="{{ $legacy_img.RelPermalink }}" srcset="{{ $img_src_set }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ $page.Title }}" style="display:block; margin: 0 auto;">
       {{ end }}
     {{ end }}
-    {{ with $page.Params.design.columns.right }}
-      <p style="font-size: 1em;text-align: justify;">{{ . }}</p>
-    {{ end }}
   </div>
+  {{/* with $page.Content */}}
+  <p style="font-size: 1em; text-align: justify;">{{ . }}</p>
+  {{ end }}
 </div>
 {{ end }}
