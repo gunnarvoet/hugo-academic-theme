@@ -8,12 +8,12 @@
 {{ end }}
 
     {{ with $page.Title }}
-      <h1 class="hero-title" style="font-size:xx-large;text-align: center;">{{ . | markdownify }}</h1>
+      <h1 class="hero-title" style="font-size:x-large;text-align: center;">{{ . | markdownify }}</h1>
     {{ end }}
 
     {{/* with $page.Content */}}
     {{ with $page.Params.design.columns.left }}
-    <p style="font-size: smaller; text-align: justify;">{{ . }}</p>
+    <p style="font-size: 1em; text-align: justify;">{{ . }}</p>
     {{ end }}
 
     {{/* Call-to-action link */}}
@@ -90,7 +90,7 @@
       {{ end }}
     {{ end }}
     {{ with $page.Params.design.columns.right }}
-      <p style="font-size: smaller;text-align: justify;">{{ . }}</p>
+      <p style="font-size: 1em;text-align: justify;">{{ . }}</p>
     {{ end }}
   </div>
 </div>
