@@ -26,35 +26,30 @@ organizations:
 bio: Live longer tha
 
 interests:
-  - Mozart
-  - Haribo
+  - Handball
+  - Basketball
+  - AI
+  - Autonomous Driving
   - CCI-Bonn
 
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: University of Bonn
-      year: 2010
-    - course: MEng in Informatics
-      institution: University of Bonn
-      year: 2001
-    - course: BSc in Philosophy
-      institution: University of Bonn
-      year: 1875
+    - course: MSc in Robotics, Cognition, Intelligence (RCI)
+      institution: Technical University Munich (TUM)
+      year: 2025
+    - course: BSc in Computational Engineering Science: RWTH Aachen University
+      year: 2022
 
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:test@example.org'
-  - icon: twitter
-    icon_pack: fab
-    link: https://x.com/bundesstadtbonn?lang=en
+    link: 'mailto:laurenz.heidrich@ccibonn.ai'
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: [https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ](https://scholar.google.com/citations?user=2QQpPEwAAAAJ&hl=de)
   - icon: github
     icon_pack: fab
-    link: https://github.com/CCI-Bonn
+    link: https://github.com/laurenzheidrich
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
