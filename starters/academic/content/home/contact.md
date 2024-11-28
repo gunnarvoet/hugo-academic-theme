@@ -33,7 +33,7 @@ content:
     postcode: '53127'
     country: Germany
     country_code: DE
-  post_address: 'Postbox: University Hospital Bonn, Venusberg-Campus 1, Building C81, 53127, Bonn, Germany'
+  post_address: 'Postbox: University Hospital Bonn, Venusberg-Campus 1, Building C81, 53127 Bonn, Germany'
   coordinates:
     latitude: '50.695805'
     longitude: '7.103828'

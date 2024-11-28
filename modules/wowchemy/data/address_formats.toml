@@ -3,6 +3,7 @@ en-ca = {order = ['street', 'city', 'region', 'postcode', 'country'], delimiters
 en-us = {order = ['street', 'city', 'region', 'postcode'], delimiters = [', ', ', ', ' ', '']}
 en-gb = {order = ['street', 'city', 'region', 'postcode'], delimiters = [', ', ', ', ', ', '']}
 de = {order = ['street', 'postcode', 'city'], delimiters = ['<br>', ' ', '']}
+de-eu = {order = ['street', 'postcode', 'city', 'country'], delimiters = [', ', ' ', ', ', '']}
 fr-ca = {order = ['street', 'city', 'region', 'postcode', 'country'], delimiters = ['<br>', ', ', '<br>', '<br>']}
 fr-fr = {order = ['street', 'postcode', 'city'], delimiters = ['<br>', ' ', '']}
 nl = {order = ['street', 'postcode', 'city', 'country'], delimiters = ['<br>', ' ', '<br>', '']}
