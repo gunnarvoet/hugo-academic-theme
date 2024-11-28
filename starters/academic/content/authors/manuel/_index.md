@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Manuel Debic
+title: Manuel Debić
 
 # Full name (for SEO)
 first_name: Manuel
@@ -33,15 +33,12 @@ interests:
 
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: University of Bonn
-      year: 2010
-    - course: MEng in Informatics
-      institution: University of Bonn
-      year: 2001
-    - course: BSc in Philosophy
-      institution: University of Bonn
-      year: 1875
+    - course: MSc in Medical Informatics
+      institution: Ruprecht Karl University of Heidelberg
+      year: 2021
+    - course: BEng in Medical Engineering
+      institution: Pforzheim University
+      year: 2018
 
 social:
   - icon: envelope
