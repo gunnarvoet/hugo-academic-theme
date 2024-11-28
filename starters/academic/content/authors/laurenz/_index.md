@@ -26,7 +26,7 @@ organizations:
 bio: Live longer tha
 
 interests:
-  - Mozart
+  - Handball
   - Haribo
   - CCI-Bonn
 
