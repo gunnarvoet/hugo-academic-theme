@@ -16,11 +16,11 @@ authors:
 superuser: false
 
 # Role/position
-role: AI Research Lead
+role: Postdoctoral Researcher and AI Research Lead
 
 # Organizations/Affiliations
 organizations:
-  - name: Germany
+  - name: Division of Computational Radiology and Clinical AI, Universitätsklinikum Bonn, Germany
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
@@ -61,8 +61,8 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/CCI-Bonn
-  - icon: website
-    icon_pack: fab
+  - icon: globe
+    icon_pack: fas
     link: https://adityarastogi2k12.github.io/
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -79,4 +79,8 @@ user_groups:
   - Research team members
 ---
 
-Hello, Bonn
+I am a Post Doctoral Researcher, Department of Neuroradiology of Universitätsklinikum Bonn and AI Research Lead at Division of Computational Radiology and Clinical AI. Link to my <b>RESUME</b> is <a href="https://adityarastogi2k12.github.io/pdf/Aditya_Rastogi_Resume_July_2024.pdf" target="blank"> <b>HERE</b> </a>.  
+  The website of Medical Imaging Group of Indian Institute of Science can be found <a href="http://cds.iisc.ac.in/faculty/yalavarthy/MIG/Links.html" target="blank"> <b>HERE</b> </a>.  
+  I did my Bachelor's in Technology from <b>Delhi Technological University</b> in 2016. After that, I worked as Senior Engineer in Bajaj Automobile Ltd. for close to two years.  
+
+  I am the recipient of the prestigious <a href="https://may2020.pmrf.in/" target="blank"> <b>Prime Minister's Research Fellowship</b> </a> in August 2020.
