@@ -47,7 +47,7 @@ social:
     link: 'mailto:laurenz.heidrich@ccibonn.ai'
   - icon: google-scholar
     icon_pack: ai
-    link: [https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ](https://scholar.google.com/citations?user=2QQpPEwAAAAJ&hl=de)
+    link: https://scholar.google.com/citations?user=2QQpPEwAAAAJ&hl=de
   - icon: github
     icon_pack: fab
     link: https://github.com/laurenzheidrich
