@@ -81,7 +81,7 @@
         {{ end }}
         {{ $img_src_set = delimit $img_src_set "," }}
 
-        <img src="{{ $legacy_img.RelPermalink }}" srcset="{{ $img_src_set }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ $page.Title }}" style="display:block; margin: 0 auto;">
+        <img src="{{ $legacy_img.RelPermalink }}" srcset="{{ $img_src_set }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ $page.Title }}" style="display:block; margin: 0 auto; width:250px">
       {{ end }}
     {{ end }}
   </div>
