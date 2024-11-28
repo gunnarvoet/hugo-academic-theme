@@ -1,16 +1,16 @@
 ---
 # Display name
-title: Babara Wichtmann
+title: Barbara Wichtmann
 
 # Full name (for SEO)
-first_name: Babara
+first_name: Barbara
 last_name: Wichtmann
 
 weight: 7
 
 # Username (this should match the folder name)
 authors:
-  - babara
+  - barbara
 
 # Is this the primary user of the site?
 superuser: false
