@@ -69,7 +69,7 @@
     {{ $middleEnd := sub $authorsCount 3 }}
     {{ if gt $middleEnd $middleStart }}               
     {{ $middleAuthors := first $middleEnd (after $middleStart $query) }}
-  <div class="row row-middle">
+  <div class="row row-middle" style="margin-top: 15px;">
     {{ range $middleAuthors }}
     {{ $avatar := (.Resources.ByType "image").GetMatch "*avatar*" }}
   {{/* Get link to user's profile page. */}}
@@ -111,7 +111,7 @@
   {{ with site.GetPage (printf "/authors/%s" (path.Base .File.Dir)) }}
     {{ $link = .RelPermalink }}
   {{ end }}
-  <div class="col-12 col-sm-6 people-person">
+  <div class="col-12 col-sm-auto people-person">
     {{ $src := "" }}
     {{ if site.Params.features.avatar.gravatar }}
       {{ $src = printf "https://s.gravatar.com/avatar/%s?s=150" (md5 .Params.email) }}
