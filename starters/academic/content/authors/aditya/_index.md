@@ -24,12 +24,12 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am a Post Doctoral Researcher, Department of Neuroradiology of Universitätsklinikum Bonn and AI Research Lead at Division of Computational Radiology and Clinical AI. Link to my <b>RESUME</b> is <a href = "https://adityarastogi2k12.github.io/pdf/Aditya_Rastogi_Resume_July_2024.pdf" target = "blank"> <b>HERE</b> </a>.  <br>
-The website of Medical Imaging Group of Indian Institute of Science can be found <a href = "http://cds.iisc.ac.in/faculty/yalavarthy/MIG/Links.html" target = "blank"> <b>HERE</b> </a>
- I did my Bachelor's in Technology from <b>Delhi Technological University</b> in 2016. After that, I worked as Senior Engineer in Bajaj Automobile Ltd. for close to two years. 
-</p>
+bio: >
+  I am a Post Doctoral Researcher, Department of Neuroradiology of Universitätsklinikum Bonn and AI Research Lead at Division of Computational Radiology and Clinical AI. Link to my <b>RESUME</b> is <a href="https://adityarastogi2k12.github.io/pdf/Aditya_Rastogi_Resume_July_2024.pdf" target="blank"> <b>HERE</b> </a>.  
+  The website of Medical Imaging Group of Indian Institute of Science can be found <a href="http://cds.iisc.ac.in/faculty/yalavarthy/MIG/Links.html" target="blank"> <b>HERE</b> </a>.  
+  I did my Bachelor's in Technology from <b>Delhi Technological University</b> in 2016. After that, I worked as Senior Engineer in Bajaj Automobile Ltd. for close to two years.  
 
-I am the recipient of the prestigious <a href = "https://may2020.pmrf.in/" target = "blank"> <b> Prime Minister's Research Fellowship</b> </a> in August 2020
+  I am the recipient of the prestigious <a href="https://may2020.pmrf.in/" target="blank"> <b>Prime Minister's Research Fellowship</b> </a> in August 2020.
 
 interests:
   - Inverse Problems
