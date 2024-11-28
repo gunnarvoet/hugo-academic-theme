@@ -9,10 +9,10 @@ summary: "We, at the newly established division for Computational Radiology & Cl
 projects: []
 
 # Date published
-date: '2020-12-13T00:00:00Z'
+date: '2024-05-01T00:00:00Z'
 
 # Date updated
-lastmod: '2020-12-13T00:00:00Z'
+lastmod: '2024-11-27T00:00:00Z'
 
 # Is this an unpublished draft?
 draft: false
@@ -29,16 +29,13 @@ image:
   preview_only: false
 
 authors:
-  - admin
-  - 吳恩達
+  - joey
 
 tags:
-  - Academic
-  - 开源
+  - PhD
 
 categories:
-  - Demo
-  - 教程
+  - PhD
 ---
 
 ## Overview
