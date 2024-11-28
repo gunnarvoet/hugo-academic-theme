@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Aditya Rastogi
+title: Aditya Rastogi, PhD
 
 # Full name (for SEO)
 first_name: Aditya
@@ -16,7 +16,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Postdoctoral Researcher and AI Research Lead
+role: AI Research Lead
 
 # Organizations/Affiliations
 organizations:
@@ -79,7 +79,7 @@ user_groups:
   - Research team members
 ---
 
-I am a Post Doctoral Researcher, Department of Neuroradiology of Universitätsklinikum Bonn and AI Research Lead at Division of Computational Radiology and Clinical AI. Link to my <b>RESUME</b> is <a href="https://adityarastogi2k12.github.io/pdf/Aditya_Rastogi_Resume_July_2024.pdf" target="blank"> <b>HERE</b> </a>.  
+I am a Post Doctoral Researcher at the Department of Neuroradiology of Universitätsklinikum Bonn and AI Research Lead at the Division of Computational Radiology and Clinical AI. Link to my <b>RESUME</b> is <a href="https://adityarastogi2k12.github.io/pdf/Aditya_Rastogi_Resume_July_2024.pdf" target="blank"> <b>HERE</b> </a>.  
   The website of Medical Imaging Group of Indian Institute of Science can be found <a href="http://cds.iisc.ac.in/faculty/yalavarthy/MIG/Links.html" target="blank"> <b>HERE</b> </a>.  
   I did my Bachelor's in Technology from <b>Delhi Technological University</b> in 2016. After that, I worked as Senior Engineer in Bajaj Automobile Ltd. for close to two years.  
 
