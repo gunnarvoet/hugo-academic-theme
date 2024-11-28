@@ -37,7 +37,8 @@ education:
     - course: MSc in Robotics, Cognition, Intelligence (RCI)
       institution: Technical University Munich (TUM)
       year: 2025
-    - course: BSc in Computational Engineering Science: RWTH Aachen University
+    - course: BSc in Computational Engineering Science
+      institution: RWTH Aachen University
       year: 2022
 
 social:
