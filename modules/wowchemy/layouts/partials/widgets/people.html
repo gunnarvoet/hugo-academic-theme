@@ -103,7 +103,7 @@
   {{ end }}
 
   {{/* First row: Show one person */}}
-  <div class="row row-last" style="margin-top: 15px;justify-content: center;">
+  <div class="row row-last" style="margin-top: 15px;justify-content: center;width: -webkit-fill-available;">
     {{ range last 2 $query }}
     {{ $avatar := (.Resources.ByType "image").GetMatch "*avatar*" }}
   {{/* Get link to user's profile page. */}}
