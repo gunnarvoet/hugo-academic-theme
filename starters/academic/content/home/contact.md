@@ -28,13 +28,13 @@ content:
   email: contact@ccibonn.ai
   phone: +49 228 287-16505
   address:
-    street: Venusberg-Campus 1, Building C91
+    street: 'Office: C91, Venusberg-Campus 1' 
     city: Bonn
     region: North Rhine-Westphalia
     postcode: '53127'
     country: Germany
     country_code: DE
-  post_address: Venusberg-Campus 1, Building C81, Bonn, North Rhine-Westphalia 53127
+  post_address: 'Postbox: C81'
   coordinates:
     latitude: '50.695805'
     longitude: '7.103828'
