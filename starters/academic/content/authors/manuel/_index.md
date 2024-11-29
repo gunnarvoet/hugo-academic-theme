@@ -44,6 +44,9 @@ social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto:manuel@ccibonn.ai'
+  - icon: researchgate
+    icon_pack: fab
+    link: https://www.researchgate.net/profile/Manuel_Debic
   - icon: github
     icon_pack: fab
     link: https://github.com/mdebic
