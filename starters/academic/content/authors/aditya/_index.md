@@ -57,10 +57,13 @@ social:
    # link: https://x.com/bundesstadtbonn?lang=en
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://scholar.google.com/citations?user=61LSsAQAAAAJ&hl=en
   - icon: github
     icon_pack: fab
     link: https://github.com/CCI-Bonn
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/aditya-rastogi-8167417b/
   - icon: globe
     icon_pack: fas
     link: https://adityarastogi2k12.github.io/
