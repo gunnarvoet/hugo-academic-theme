@@ -46,7 +46,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:test@example.org'
+    link: 'mailto:martha.foltyn-dumitru@ukbonn.de'
   - icon: twitter
     icon_pack: fab
     link: https://x.com/bundesstadtbonn?lang=en
